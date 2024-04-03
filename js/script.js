@@ -7,15 +7,18 @@
 "use strict"
 
 function myButtonClicked() {
+
   //input
-  const firstBase = document.getElementById("base-a").value
-  const secondBase = document.getElementById("base-b").value
-  const heightOfTrapezium = document.getElementById("height").value
+  const lengthOfPyramid = parseFloat(document.getElementById("length-of-pyramid").value)
+  const widthOfPyramid = parseFloat(document.getElementById("width-of-pyramid").value)
+  const heightOfPrapezium = parseFloat(document.getElementById("height-of-pyramid").value)
+
   //process
-  const areaHalfway = (firstBase * secondBase) * heightOfTrapezium
-  const areaAnswer = areaHalfway / 2
+  const volumeHalfway = (lengthOfPyramid * widthOfPyramid * heightOfPrapezium)
+  const volumeAnswer = volumeHalfway / 2 
+  const volumeFinalAnswer = volumeAnswer.toFixed(2)
 
   //output
   document.getElementById("answer").innerHTML =
-    "The area of this trapezium is: " + areaAnswer + " mm²."
+    "The volume of this pyramid is: " + volumeFinalAnswer + " mm³."
 }
