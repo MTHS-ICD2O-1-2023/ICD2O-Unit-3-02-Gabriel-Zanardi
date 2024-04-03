@@ -1,11 +1,77 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="559" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#7f00ff&quot;&gt;Volume of a Pyramid, with JS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="40" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#009900&quot;&gt;Formulas&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#7F00FF;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="90" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#ff33ff&quot;&gt;V =&amp;nbsp; (L * W * H) / 3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009900;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="150" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font color=&quot;#000000&quot;&gt;Please enter integers for dimensions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="200" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Length:&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="240" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="7">
+                    <mxGeometry x="80" y="242.5" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font color=&quot;#ffffff&quot;&gt;Calculate&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="380" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Volume is:_____ mm&lt;a style=&quot;color: var(--JKqx2); text-decoration-line: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1); outline: 0px; font-family: arial, sans-serif; font-size: small; text-align: left;&quot; data-ved=&quot;2ahUKEwi7sqeb0qaFAxVt8MkDHTL9AjEQFnoECA8QAw&quot; href=&quot;https://www.compart.com/en/unicode/U+00B3&quot;&gt;&lt;h3 style=&quot;font-weight: 400; margin: 18px 0px 0px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; display: inline-block;&quot; class=&quot;LC20lb MBeuO DKV0Md&quot;&gt;³&lt;/h3&gt;&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="410" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="triangle;whiteSpace=wrap;html=1;fontColor=#FFFFFF;rotation=-75;" vertex="1" parent="7">
+                    <mxGeometry x="447.1" y="173.18" width="144.82" height="149" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="triangle;whiteSpace=wrap;html=1;fontColor=#FFFFFF;rotation=-125;" vertex="1" parent="7">
+                    <mxGeometry x="502.52" y="176.97" width="152.52" height="126.06" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;html=1;fontColor=#FFFFFF;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="7" source="23">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="310" as="sourcePoint"/>
+                        <mxPoint x="540" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="7">
+                    <mxGeometry x="490" y="243" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="l" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="7">
+                    <mxGeometry x="460" y="322" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="w" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="7">
+                    <mxGeometry x="620" y="294" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="mm&lt;a style=&quot;color: var(--JKqx2); text-decoration-line: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1); outline: 0px; font-family: arial, sans-serif; font-size: small; text-align: left;&quot; data-ved=&quot;2ahUKEwi7sqeb0qaFAxVt8MkDHTL9AjEQFnoECA8QAw&quot; href=&quot;https://www.compart.com/en/unicode/U+00B3&quot;&gt;&lt;h3 style=&quot;font-weight: 400; margin: 18px 0px 0px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; display: inline-block;&quot; class=&quot;LC20lb MBeuO DKV0Md&quot;&gt;³&lt;/h3&gt;&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="7">
+                    <mxGeometry x="200" y="227" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Width:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="329" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Height:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="379" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="333.5" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="380.5" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="mm&lt;a href=&quot;https://www.compart.com/en/unicode/U+00B3&quot; data-ved=&quot;2ahUKEwi7sqeb0qaFAxVt8MkDHTL9AjEQFnoECA8QAw&quot; style=&quot;color: var(--JKqx2); text-decoration-line: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1); outline: 0px; font-family: arial, sans-serif; font-size: small; text-align: left;&quot;&gt;&lt;h3 class=&quot;LC20lb MBeuO DKV0Md&quot; style=&quot;font-weight: 400; margin: 18px 0px 0px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; display: inline-block;&quot;&gt;³&lt;/h3&gt;&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="317" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="mm&lt;a href=&quot;https://www.compart.com/en/unicode/U+00B3&quot; data-ved=&quot;2ahUKEwi7sqeb0qaFAxVt8MkDHTL9AjEQFnoECA8QAw&quot; style=&quot;color: var(--JKqx2); text-decoration-line: none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1); outline: 0px; font-family: arial, sans-serif; font-size: small; text-align: left;&quot;&gt;&lt;h3 class=&quot;LC20lb MBeuO DKV0Md&quot; style=&quot;font-weight: 400; margin: 18px 0px 0px; padding: 5px 0px 0px; font-size: 20px; line-height: 1.3; display: inline-block;&quot;&gt;³&lt;/h3&gt;&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="239" y="363" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
